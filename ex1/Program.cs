@@ -55,7 +55,7 @@ namespace ex1
             {
                 if (queue.TryDequeue(out customerName))
                 {
-                    Console.WriteLine("Queue of: " + customerName);
+                    Console.WriteLine("Turn of: " + customerName);
                     Checkout_Cashier(customerName, cashieNum);
                 }
             }
