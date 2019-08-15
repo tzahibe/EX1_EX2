@@ -46,27 +46,6 @@ namespace ex1
                 Thread cashierThread = new Thread(() => FindFreeCashier(cashierNum));
                 cashierThread.Start();
             }
-
-
-            //int customerCount = 0;
-
-            //while (CUSTOMERS > customerCount)
-            //{
-            //    string threadName = "Customer " + (customerCount + 1);
-            //    ThreadStart start = new ThreadStart(() => FindFreeCashier(threadName));
-            //    Thread thr = new Thread(start);
-            //    thr.Name = threadName;
-            //    Monitor.Enter(queue);
-            //    queue.Enqueue(thr);
-            //    Console.WriteLine(threadName + " is waiting in the Queue");
-            //    Monitor.Exit(queue);
-            //    thr.Start();
-            //    Thread.Sleep(1000);
-
-            //    customerCount++;
-            //}
-
-            //Console.ReadKey();
         }
         public static void FindFreeCashier(int cashieNum)
         {
