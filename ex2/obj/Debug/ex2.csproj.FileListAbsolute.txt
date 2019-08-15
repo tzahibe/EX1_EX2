@@ -1,0 +1,7 @@
+D:\test\ex1\ex2\bin\Debug\ex2.exe.config
+D:\test\ex1\ex2\bin\Debug\ex2.exe
+D:\test\ex1\ex2\bin\Debug\ex2.pdb
+D:\test\ex1\ex2\obj\Debug\ex2.exe
+D:\test\ex1\ex2\obj\Debug\ex2.pdb
+D:\test\ex1\ex2\bin\Debug\data.txt
+D:\test\ex1\ex2\obj\Debug\ex2.csprojResolveAssemblyReference.cache
